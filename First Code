@@ -1,0 +1,15 @@
+# 01 PROBLEM SOLUTION (WITHOUT HELP)                                                                  10-07-24
+# AGE CATEGORY PROBLEM 
+
+age = int(input("ENTER YOR AGE PLS:"))
+if age < 13 :
+    print ('CHILD') 
+if age >  13 and age < 20 :
+    print ("TEENAGER")
+if age >= 20 and age < 60 :
+    print ("ADULT")
+if age >59 :
+    print ("SENIOR")
+
+#NOTE
+# "YOU CAN USE ELSE IN CASE OF IF AFTER USING IF ONE TIME"
