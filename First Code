@@ -1,16 +1,12 @@
-score = int(input("ENTER YOUR SCORE :"))
+weather = input("WHAT'S THE WEATHER TODAY:")
 
-if score >100:
-    print("PLEASE ENTER A VALIDE SCORE YOU CAN ONLY ENTER SCORE BETWEEN (0 TO 100)")
-
-
-if score >= 90 and score <101:
-    print("CONGRATULATION YOU GOT 'A' GRADE")
-elif score >= 80 and score <90:
-    print("CLOSE BUT NOT CIGAR YOU GOT 'B' GRADE")
-elif score >= 70 and score <80:
-    print("DO MORE HARDWORK YOU GOT 'C' GRADE") 
-elif score >= 60 and score <70:
-    print("NEED IMPROVEMENT YOU GOT 'D' GRADE") 
-elif score < 60:
-    print("FUCK OFF YOU GOT 'F' GRADE") 
+if weather == "SUNNY" or weather == "sunny":
+    print("GO FOR WALK")
+elif weather == "RAINY" or weather == "rainy":
+    print("READ A BOOK")
+elif weather == "SNOWY" or weather == "snowy":
+    print("BUILD A SNOWMAN")
+elif weather == "WINTER" or weather == "winter":
+    print("MAKE CHAI")
+else:
+    print("ENTER THE CORRECT WEATHER (SUNNY,RAINY,SNOWY,WINTER)")
